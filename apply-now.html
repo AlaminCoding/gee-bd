@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Font Integration -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>GEE Bangladesh</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="custom-container main-nav">
+          <div class="logo">
+            <a href="#"><img src="img/logo.png" alt="" /></a>
+          </div>
+          <ul id="menu">
+            <li><a href="#">Universitites</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Exhibitions</a></li>
+            <li><a href="#">Guides</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+              <a href="#" class="menu-btn"
+                ><i class="bi bi-person-fill"></i> Sign In</a
+              >
+            </li>
+          </ul>
+          <div class="toggler">
+            <i class="bi bi-list"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="custom-container-left">
+      <div class="img-form">
+        <div class="apply-form">
+          <div class="form-tab">
+            <button class="o-btn ftab-btn ftab-active">Basic Info</button>
+            <button class="o-btn ftab-btn">Academic Info</button>
+            <button class="o-btn ftab-btn">Application Info</button>
+          </div>
+          <div class="main-form basic-form d-block">
+            <form action="">
+              <div class="form-group mt-0">
+                <label for="">First Name<sup>*</sup></label>
+                <input type="text" />
+              </div>
+              <div class="form-group">
+                <label for="">Last Name<sup>*</sup></label>
+                <input type="text" />
+              </div>
+              <div class="form-group">
+                <label for="">Mobile Number<sup>*</sup></label>
+                <input type="text" />
+              </div>
+              <div class="form-group">
+                <label for="">Street Address<sup>*</sup></label>
+                <input type="password" />
+              </div>
+              <div class="d-block d-lg-flex">
+                <div class="form-group me-lg-1">
+                  <label for="">First Name<sup>*</sup></label>
+                  <input type="text" />
+                </div>
+                <div class="form-group ms-lg-1">
+                  <label for="">Last Name<sup>*</sup></label>
+                  <input type="text" />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="main-form academic-form">
+            <form action="">
+              <div class="form-group mt-0">
+                <label for="">Highest Qualification<sup>*</sup></label>
+                <select name="" id="">
+                  <option value="">HSC/Alim/Equivalent</option>
+                  <option value="">HSC</option>
+                  <option value="">SSC</option>
+                  <option value="">JSC</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="">Passing Year<sup>*</sup></label>
+                <input type="text" />
+              </div>
+              <div class="form-group">
+                <label for="">Result<sup>*</sup></label>
+                <input type="text" />
+              </div>
+            </form>
+          </div>
+          <div class="main-form application-form">
+            <form action="">
+              <div class="form-group mt-0">
+                <label for="">Institute Type<sup>*</sup></label>
+                <select name="" id="">
+                  <option value="">School</option>
+                  <option value="">College</option>
+                  <option value="">University</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="">Last Name<sup>*</sup></label>
+                <select name="" id="">
+                  <option value="">A University</option>
+                  <option value="">B</option>
+                  <option value="">C</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="">Programs<sup>*</sup></label>
+                <select name="" id="">
+                  <option value="">M Tech in CAD/CAM</option>
+                  <option value="">B. Tech</option>
+                  <option value="">C. Tech</option>
+                </select>
+              </div>
+            </form>
+          </div>
+          <div class="form-btn d-flex mt-5">
+            <button class="o-btn ftab-prev">Previous Step</button>
+            <button class="b-btn ftab-next">
+              Next Step <i class="bi bi-arrow-right-short"></i>
+            </button>
+          </div>
+        </div>
+        <div class="form-img">
+          <img src="img/apply-img.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <footer class="custom-container">
+      <div class="footer-content">
+        <div class="logo">
+          <img src="img/logo.png" alt="" />
+        </div>
+        <div class="row footer-menu">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-menu-box">
+              <h2>About</h2>
+              <ul>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Photo Gallery</a></li>
+                <li><a href="#">Testimonials</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <div class="footer-menu-box">
+              <h2>Our Address</h2>
+              <p>
+                238/1 Outer Circular Road. Maruf Market, 3rd Floor, Mouchak
+                Market Circle Dhaka 1217, Bangladesh
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-menu-box">
+              <h2>Important Links</h2>
+              <ul>
+                <li><a href="#">Site Map</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-menu-box">
+              <h2>Blog and Exhibition</h2>
+              <ul>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Medias</a></li>
+                <li><a href="#">Latest Notice</a></li>
+                <li><a href="#">Exhibition List</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <div class="footer-menu-box">
+              <h2>Contact</h2>
+              <p class="contact-para">
+                Tel: +880 2 9351410, 9352102 <br />
+                Mobile: 01712571098, 01930295929 <br />
+                Email: geebangladesh@gmail.com <br />
+                Web: www.geebangladesh.com
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-menu-box">
+              <h2>Social Media Links</h2>
+              <div class="social-logos">
+                <a href="#"><img src="img/fb.png" alt="" /></a>
+                <a href="#"><img src="img/tw.png" alt="" /></a>
+                <a href="#"><img src="img/yt.png" alt="" /></a>
+                <a href="#"><img src="img/linkedin.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">
+        GEE Bangladesh © 2018. All Rights Reserved. Designed and developed
+        Socialo.
+      </p>
+    </footer>
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/apply-form.js"></script>
+  </body>
+</html>
